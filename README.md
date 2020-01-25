@@ -11,7 +11,6 @@ Neo.
 ---
 
 - [GitHub](https://github.com/Neos21)
-- [Twitter](https://twitter.com/Neos21)
 - [Facebook](https://www.facebook.com/Neos21)
 - [Instagram](https://www.instagram.com/Neos21/)
 - [LinkedIn](https://jp.linkedin.com/in/Neos21)
