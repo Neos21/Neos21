@@ -3,7 +3,7 @@
 Web Engineer based in Tokyo. I love JavaScript / Node.js. __More Details : [About Neo](https://neos21.github.io/about/)__
 
 
-## Websites / Blogs
+## WebSites / Blogs
 
 - __[Neo's World](http://neo.s21.xrea.com/)__ : My First WebSite Since 2002.
 - __[Corredor](https://neos21.hatenablog.com/)__ : Tech Blog.
