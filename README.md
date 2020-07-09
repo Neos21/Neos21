@@ -1,7 +1,6 @@
 # __Neo__
 
-Web Engineer based in Tokyo. I love JavaScript / Node.js.  
-__More Details : [About Neo](https://neos21.github.io/about/)__
+Web Engineer based in Tokyo. I love JavaScript / Node.js. __More Details : [About Neo](https://neos21.github.io/about/)__
 
 
 ## Websites / Blogs
