@@ -1,15 +1,19 @@
 # __Neo__
 
-Web Engineer based in Tokyo. I love JavaScript / Node.js. __More Details : [About Neo](https://neos21.github.io/about/)__
+Web Engineer based in Tokyo. I love JavaScript / Node.js.
+
+__More Details : [About Neo](https://neos21.github.io/about/)__
 
 
 ## WebSites / Blogs
 
-- __[Neo's World](http://neo.s21.xrea.com/)__ : My First WebSite Since 2002.
-- __[Corredor](https://neos21.hatenablog.com/)__ : Tech Blog.
-- __[Murga](https://neos21.hatenablog.jp/)__ : Engineer / Developer Blog.
-- __[El Mylar](https://neos21.hateblo.jp/)__ : Personal Blog.
-- __[Neo's GitHub Pages](https://neos21.github.io/)__ : GitHub Pages.
+<table>
+  <tr><th><a href="http://neo.s21.xrea.com/"      >Neo's World       </a></th><td>My First WebSite Since 2002.</td></tr>
+  <tr><th><a href="https://neos21.hatenablog.com/">Corredor          </a></th><td>Tech Blog.                  </td></tr>
+  <tr><th><a href="https://neos21.hatenablog.jp/" >Murga             </a></th><td>Engineer / Developer Blog.  </td></tr>
+  <tr><th><a href="https://neos21.hateblo.jp/"    >El Mylar          </a></th><td>Personal Blog.              </td></tr>
+  <tr><th><a href="https://neos21.github.io/"     >Neo's GitHub Pages</a></th><td>GitHub Pages.               </td></tr>
+</table>
 
 
 ## Social
