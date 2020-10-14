@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neo : Web Engineer</title>
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon-192x192.png" sizes="192x192" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" sizes="152x152">
+    <style>
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium"), local("YuGothic-Medium");
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold"), local("YuGothic-Bold");
+  font-weight: bold;
+}
+
+:root {
+  --font-family-monospace: MeiryoKe_Gothic, "Noto Sans Mono CJK JP", Osaka-mono, "MS Gothic", "Courier New", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, YuGothic, "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-size-base: 17px;
+  --space-fixed-base: var(--font-size-base);
+  --space-medium: 1em;
+  --space-large: calc(var(--space-medium) * 2);
+  --space-indent: var(--space-large);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden scroll;
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: clamp(var(--font-size-base), 1.7vw, 20px);
+  font-family: var(--font-family-sans-serif);
+  line-height: 1.7;
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip: objects;
+  background: #fafbfc;
+  cursor: default;
+}
+
+@media (max-width: 600px) {
+  html {
+    word-break: break-all;
+  }
+}
+
+body {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: calc(var(--space-fixed-base) * 2) var(--space-fixed-base);
+}
+
+a,
+#skills li::before {
+  color: #0070ff;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+summary:hover span,
+#skills li:hover::before {
+  color: #f09;
+}
+
+code,
+time {
+  font-family: var(--font-family-monospace);
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+h2 {
+  margin: var(--space-large) 0 var(--space-medium);
+  font-size: 1.6em;
+}
+
+p, ul, dl, details {
+  margin: var(--space-medium) 0;
+}
+
+ul,
+dd {
+  margin-left: 0;
+  padding-left: var(--space-indent);
+}
+
+dd p {
+  margin: 0 0 var(--space-medium);
+}
+
+dt,
+#slides a {
+  font-weight: bold;
+}
+
+summary {
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li span {
+  margin: 0 .2em;
+  color: #ccc;
+}
+
+#slides ul,
+#donate ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  position: relative;
+}
+
+#skills li::before {
+  content: "\00bb";
+  position: absolute;
+  left: calc(var(--space-indent) * -1 + .4em);
+}
+
+#donate li {
+  display: inline;
+}
+
+#donate li:not(:last-child)::after {
+  content: " | ";
+  margin: 0 .2em;
+}
+
+#social ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0;
+  list-style: none;
+}
+
+#social li:nth-child(1) {
+  border-radius: 4px 0 0 4px;
+  background: #24292e;
+}
+
+#social li:nth-child(2) {
+  background: #3b5998;
+}
+
+#social li:nth-child(3) {
+  background: #d93177;
+}
+
+#social li:nth-child(4) {
+  border-radius: 0 4px 4px 0;
+  background: #0077b5;
+}
+
+#social a {
+  display: block;
+  padding: .5rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+#social a:hover,
+#social a:focus,
+#social a:active {
+  background: rgba(255, 255, 255, .08);
+}
+
+    </style>
+  </head>
+  <body>
+
+<section id="container">
+  <h1>Neo</h1>
+  <p>Web Engineer. <strong><a href="https://gist.github.com/Neos21/09898ca1add539e1714844a113991f64">Hire Me!</a></strong></p>
+  
+  <section id="websites-blogs">
+    <h2>Websites / Blogs</h2>
+    <dl>
+      <dt><a href="http://neo.s21.xrea.com/">Neo's World</a></dt>
+      <dd>
+        <p>My first website since 2002.</p>
+      </dd>
+      <dt><a href="https://neos21.hatenablog.com/">Corredor</a></dt>
+      <dd>
+        <p>Tech blog.</p>
+      </dd>
+      <dt><a href="https://neos21.hatenablog.jp/">Murga</a></dt>
+      <dd>
+        <p>Engineer / Developer blog.</p>
+      </dd>
+      <dt><a href="https://neos21.hateblo.jp/">El Mylar</a></dt>
+      <dd>
+        <p>Personal blog.</p>
+      </dd>
+      <dt><a href="https://neos21.github.io/">Neo's GitHub Pages</a></dt>
+      <dd>
+        <p>GitHub Pages.</p>
+      </dd>
+    </dl>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Check my <a href="https://github.com/Neos21?tab=repositories">GitHub repositories</a>, <a href="https://www.npmjs.com/~neos21">npm packages</a>.</p>
+    <details>
+      <summary><span>Show All Projects</span></summary>
+      <dl>
+        <dt><a href="https://neos21-webrtc-video-chat.glitch.me/">WebRTC Video Chat</a></dt>
+        <dd>
+          <p>Simple video chat app.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/typescript-express-boilerplate">TypeScript Express Boilerplate</a></dt>
+        <dd>
+          <p>TypeScript and Express boilerplate.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/birthdates/">Birthdates</a> <span>:</span> <a href="https://github.com/Neos21/birthdates">birthdates</a></dt>
+        <dd>
+          <p>Birthday management app made with only single HTML file.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/neos-python-note">Neo's Python Note</a></dt>
+        <dd>
+          <p>Simple note app made with Python CGI.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/python-mecab-cgi">Python MeCab CGI</a></dt>
+        <dd>
+          <p>Optimized for XREA server.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/nemui-gacha-js/">Nemui-Gacha.js</a></dt>
+        <dd>
+          <p>Returns a negative expression at random. Made with React and kuromoji.js.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/web-camera-light-sensor/">Web Camera Light Sensor</a></dt>
+        <dd>
+          <p>Notify with Slack that the light in the bathroom is on. Made with only single HTML file.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/nemui-gacha">Nemui-Gacha</a></dt>
+        <dd>
+          <p>Returns a negative expression at random. Made with Python and MeCab.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/ios-memo-icon-generator/">iOS Memo Icon Generator</a></dt>
+        <dd>
+          <p>Put memo on iOS home screen. Made with only single HTML file.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/perfect-yu-gothic/">Perfect Yu Gothic</a></dt>
+        <dd>
+          <p>Investigate Windows Yu Gothic font rendering.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/node-calc-cli">node-calc-cli</a> <span>:</span> <a href="https://www.npmjs.com/package/@neos21/calc-cli">@neos21/calc-cli</a></dt>
+        <dd>
+          <p>Calculator on CLI.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/poc-only-once-server">PoC : Only Once Server</a></dt>
+        <dd>
+          <p>You can access the web page only once.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/docker-oci-cli">OCI CLI on Docker</a></dt>
+        <dd>
+          <p>OCI CLI on Docker.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/docker-psm-cli">PSM CLI on Docker</a></dt>
+        <dd>
+          <p>PSM CLI on Docker.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/neos-ruby-bookmarks">Neo's Ruby Bookmarks</a></dt>
+        <dd>
+          <p>Micro bookmark app made with Ruby.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/pmw">pmw : Package Manager Wrapper</a></dt>
+        <dd>
+          <p>Wrapper script for package managers.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/bookmarkletify">Bookmarkletify</a> <span>:</span> <a href="https://www.npmjs.com/package/@neos21/bookmarkletify">@neos21/bookmarkletify</a></dt>
+        <dd>
+          <p>Bookmarklet code generator.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/document-templates">Document Templates</a></dt>
+        <dd>
+          <p>SE document templates.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/neos-php-micro-blog">Neo's PHP Micro Blog</a></dt>
+        <dd>
+          <p>Micro blog app made with PHP.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/multi-cam">Multi Cam</a></dt>
+        <dd>
+          <p>Example of iOS Swift application. Take multi videos with AVCaptureMultiCamSession.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/powershell-scripts">PowerShell Scripts</a></dt>
+        <dd>
+          <p>Useful scripts made with PowerShell.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/m3u8-to-mp4">m3u8-to-mp4</a></dt>
+        <dd>
+          <p>Download mp4 from m3u8 file.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/igsv">igsv</a> <span>:</span> <a href="https://www.npmjs.com/package/@neos21/igsv">@neos21/igsv</a></dt>
+        <dd>
+          <p>Download Instagram images and videos on CLI.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/twsv">twsv</a> <span>:</span> <a href="https://www.npmjs.com/package/@neos21/twsv">@neos21/twsv</a></dt>
+        <dd>
+          <p>Download Twitter images and videos on CLI.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/terraform-private-oke-cluster-with-bastion">Terraform Private OKE Cluster With Bastion</a></dt>
+        <dd>
+          <p>Terraform boilerplate.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/just-tweet">Just Tweet</a> <span>:</span> <a href="https://www.npmjs.com/package/@neos21/just-tweet">@neos21/just-tweet</a></dt>
+        <dd>
+          <p>Tweet on CLI.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/ch-sh">ch-sh</a></dt>
+        <dd>
+          <p>Search markdown files.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/compare-colour-contrast-ratio/">Compare Colour Contrast Ratio</a> <span>:</span> <a href="https://www.npmjs.com/package/@neos21/compare-colour-contrast-ratio">@neos21/compare-colour-contrast-ratio</a></dt>
+        <dd>
+          <p>Compare colour contrast ratio.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/garbler/">Garbler</a></dt>
+        <dd>
+          <p>Text encoder made with Angular.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/neos-password-manager">NPM : Neo's Password Manager</a> <span>:</span> <a href="https://www.npmjs.com/package/@neos21/npm">@neos21/npm</a></dt>
+        <dd>
+          <p>Simple password manager.</p>
+        </dd>
+        <dt><a href="https://neos-hatebu.herokuapp.com/">Neo's Hatebu</a> <span>:</span> <a href="https://github.com/Neos21/neos-hatebu">neos-hatebu</a></dt>
+        <dd>
+          <p>Filter Hatena Bookmark entries made with Angular, Express, Heroku.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/unix-like-commands-for-windows/">Unix-Like Commands For Windows</a></dt>
+        <dd>
+          <p>Index of the Unix-like commands for Windows.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/ngx-markdown-wiki/">ngx-markdown-wiki</a></dt>
+        <dd>
+          <p>Markdown-based Wiki system made with Angular.</p>
+        </dd>
+        <dt><a href="https://marketplace.visualstudio.com/items?itemName=Neos21.non-italic-monokai">VSCode Extensions : Non-Italic Monokai Theme</a> <span>:</span> <a href="https://github.com/Neos21/vscode-non-italic-monokai">vscode-non-italic-monokai</a></dt>
+        <dd>
+          <p>A theme based on the flatland-monokai TextMate Theme.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/neos-normalize/">Neo's Normalize</a> <span>:</span> <a href="https://www.npmjs.com/package/@neos21/neos-normalize">@neos21/neos-normalize</a></dt>
+        <dd>
+          <p>Neo's Normalize CSS based on Normalize.css &amp; Bootstrap 4 Reboot.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/angular-utilities/">Angular Utilities</a></dt>
+        <dd>
+          <p>The utilities made with Angular.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/ccc/">ccc</a></dt>
+        <dd>
+          <p>Colour Code Converter.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/in-browser-sass/">in-browser-sass</a></dt>
+        <dd>
+          <p>Compile SASS / SCSS in the browser.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/gh-contributions">gh-contributions</a></dt>
+        <dd>
+          <p>GitHub contributions generator.</p>
+        </dd>
+        <dt><a href="https://neos21.github.io/windows-batch-scripts/">Windows Batch Scripts</a></dt>
+        <dd>
+          <p>Windows Batch, PowerShell, Bash, VBScript, JScript, VB.NET, JScript.NET, C# comparison.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/hta-memo">HTA Memo</a></dt>
+        <dd>
+          <p>A simple memo app made with Windows <abbr title="HTML Application">HTA</abbr>.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/unlock-excel-book-password">Unlock Excel Book Password</a></dt>
+        <dd>
+          <p>Unlock Excel book password made with VBScript.</p>
+        </dd>
+        <dt><a href="https://github.com/Neos21/vbsqlipt">VBSQLipt</a></dt>
+        <dd>
+          <p>A simple DB client tool made with VBScript.</p>
+        </dd>
+        <dt><span>Fork :</span> <a href="https://neos21.github.io/bootstrap3-glyphicons/">Bootstrap3 Glyphicons</a></dt>
+        <dd>
+          <p>Includes only Glyphicons components of Bootstrap v3.3.7.</p>
+        </dd>
+        <dt><span>Fork :</span> <a href="https://www.npmjs.com/package/@neos21/template-html">@neos21/template-html</a> <span>&amp;</span> <a href="https://github.com/Neos21/gulp-template-html">@neos21/gulp-template-html</a></dt>
+        <dd>
+          <p>Generate static HTML files from templates and content files.</p>
+        </dd>
+        <dt><span>Fork :</span> <a href="https://github.com/Neos21/cordova-background-video">Cordova Background Video</a></dt>
+        <dd>
+          <p>A simple Cordova / Phonegap plugin to capture video and then display it onscreen via a transparent overlay.</p>
+        </dd>
+      </dl>
+    </details>
+  </section>
+  
+  <section id="slides">
+    <h2>Slides</h2>
+    <ul>
+      <li><time>2019-10-25</time> <span>:</span> <a href="https://www.slideshare.net/NeoXrea/lets-use-oke">Let's Use OKE</a></li>
+      <li><time>2018-11-20</time> <span>:</span> <a href="https://www.slideshare.net/NeoXrea/angular-123499448">Introducing Angular</a></li>
+    </ul>
+  </section>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML (HTML5)</li>
+      <li>CSS (CSS3)<span>/</span> SCSS <span>/</span> Twitter Bootstrap <span>/</span> Material Design</li>
+      <li>JavaScript (ECMAScript) <span>/</span> Node.js <span>/</span> npm <span>/</span> Apache Cordova <span>/</span> jQuery</li>
+      <li>TypeScript <span>/</span> Angular <span>/</span> Vue.js <span>/</span> React <span>/</span> Svelte</li>
+      <li>VM <span>:</span> Docker <span>/</span> Kubernetes <span>/</span> VirtualBox <span>/</span> Vagrant</li>
+      <li>Cloud <span>:</span> Oracle Cloud (OCI) <span>/</span> Google Cloud Platform (GCP) <span>/</span> AWS <span>/</span> Azure <span>/</span> Alibaba Cloud <span>/</span> Terraform <span>/</span> Ansible</li>
+      <li>VCS <span>:</span> Git <span>/</span> SVN</li>
+      <li>Linux <span>:</span> CentOS <span>/</span> Fedora <span>/</span> Ubuntu <span>/</span> Xubuntu <span>/</span> Bash</li>
+      <li>SQL <span>:</span> Oracle DB <span>/</span> PL*SQL <span>/</span> PostgreSQL <span>/</span> MySQL <span>/</span> SQLite</li>
+      <li>Java <span>/</span> Maven <span>/</span> Spring Boot <span>/</span> Struts <span>/</span> Ant</li>
+      <li>Python <span>/</span> pipenv</li>
+      <li>Ruby <span>/</span> Ruby on Rails</li>
+      <li>PHP <span>/</span> Composer</li>
+      <li>Perl (CGI)</li>
+      <li>Swift (iOS App)</li>
+      <li>Go Lang</li>
+      <li>Excel VBA <span>/</span> VBScript</li>
+      <li>Windows Batch <span>/</span> Command Prompt <span>/</span> WSH <span>/</span> PowerShell</li>
+      <li>Middleware <span>:</span> Express <span>/</span> Apache Tomcat <span>/</span> WebLogic Server</li>
+      <li>Editing <span>:</span> Adobe Photoshop <span>/</span> Lightroom <span>/</span> Premiere Pro <span>/</span> After Effects</li>
+      <li>Others <span>:</span> Web Design <span>/</span> UML <span>/</span> RESTful API <span>/</span> WebRTC</li>
+    </ul>
+  </section>
+  
+  <section id="donate">
+    <h2>Donate</h2>
+    <ul>
+      <li><a href="https://github.com/sponsors/Neos21">GitHub Sponsors</a></li>
+      <li><a href="https://www.patreon.com/Neos21">Patreon</a></li>
+      <li><a href="https://fantia.jp/Neos21">Fantia</a></li>
+      <li><a href="https://enty.jp/Neos21">Enty</a></li>
+    </ul>
+  </section>
+  
+  <section id="social">
+    <h2>Social</h2>
+    <ul>
+      <li><a href="https://github.com/Neos21">GitHub</a></li>
+      <li><a href="https://www.facebook.com/Neos21">Facebook</a></li>
+      <li><a href="https://www.instagram.com/Neos21">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/Neos21">LinkedIn</a></li>
+    </ul>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><img src="data:image/png;base64,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" alt="E-Mail"></p>
+  </section>
+  
+</section>
+
+  </body>
+</html>
