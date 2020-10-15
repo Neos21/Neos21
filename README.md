@@ -1,8 +1,6 @@
-# __Neo__
+# __[Neo](https://neos21.github.io/Neos21/)__
 
-Web Engineer lived in Tokyo. I love JavaScript / Node.js.
-
-__[More Details](https://neos21.github.io/Neos21/)__
+Web Engineer lived in Tokyo. I love JavaScript / Node.js. __[More Details](https://neos21.github.io/Neos21/)__
 
 
 ## WebSites / Blogs
