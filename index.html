@@ -2,54 +2,16 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Neo : Web Engineer</title>
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" href="/favicon-192x192.png" sizes="192x192" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" sizes="152x152">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@neos21/neos-normalize@2.0.0/neos-normalize.min.css">
     <style>
 
-@font-face {
-  font-family: "Yu Gothic";
-  src: local("Yu Gothic Medium"), local("YuGothic-Medium");
-}
-
-@font-face {
-  font-family: "Yu Gothic";
-  src: local("Yu Gothic Bold"), local("YuGothic-Bold");
-  font-weight: bold;
-}
-
-:root {
-  --font-family-monospace: MeiryoKe_Gothic, "Noto Sans Mono CJK JP", Osaka-mono, "MS Gothic", "Courier New", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, YuGothic, "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-size-base: 17px;
-  --space-fixed-base: var(--font-size-base);
-  --space-medium: 1em;
-  --space-large: calc(var(--space-medium) * 2);
-  --space-indent: var(--space-large);
-}
-
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
 html {
-  overflow: hidden scroll;
-  overflow-wrap: break-word;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  font-size: clamp(var(--font-size-base), 1.7vw, 20px);
-  font-family: var(--font-family-sans-serif);
-  line-height: 1.7;
-  text-decoration-skip-ink: none;
-  -webkit-text-decoration-skip: objects;
-  background: #fafbfc;
-  cursor: default;
+  font-size: clamp(17px, 1.7vw, 20px);
 }
 
 @media (max-width: 600px) {
@@ -59,14 +21,13 @@ html {
 }
 
 body {
-  max-width: 40em;
+  max-width: 50rem;
   margin: 0 auto;
-  padding: calc(var(--space-fixed-base) * 2) var(--space-fixed-base);
+  padding: 0 1rem;
 }
 
 a,
 #skills li::before {
-  color: #0070ff;
   text-decoration: none;
 }
 
@@ -77,59 +38,28 @@ summary:hover span,
   color: #f09;
 }
 
-code,
-time {
-  font-family: var(--font-family-monospace);
-}
-
 h1 {
-  margin: 0;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
-h2 {
-  margin: var(--space-large) 0 var(--space-medium);
-  font-size: 1.6em;
+ul {
+  padding: 0;
+  list-style: none;
 }
 
-p, ul, dl, details {
-  margin: var(--space-medium) 0;
-}
-
-ul,
-dd {
-  margin-left: 0;
-  padding-left: var(--space-indent);
-}
-
-dd p {
-  margin: 0 0 var(--space-medium);
-}
-
-dt,
-#slides a {
-  font-weight: bold;
-}
-
+#slides a,
 summary {
   outline: none;
   font-weight: bold;
-  cursor: pointer;
 }
 
 li span {
-  margin: 0 .2em;
-  color: #ccc;
-}
-
-#slides ul,
-#donate ul {
-  padding-left: 0;
-  list-style: none;
+  margin: 0 .2rem;
+  color: var(--nn-colour-grey-default);
 }
 
 #skills ul {
-  list-style: none;
+  padding-left: var(--nn-space-indent-default);
 }
 
 #skills li {
@@ -139,7 +69,7 @@ li span {
 #skills li::before {
   content: "\00bb";
   position: absolute;
-  left: calc(var(--space-indent) * -1 + .4em);
+  left: calc(var(--nn-space-indent-default) * -1 + var(--nn-space-tiny));
 }
 
 #donate li {
@@ -148,18 +78,16 @@ li span {
 
 #donate li:not(:last-child)::after {
   content: " | ";
-  margin: 0 .2em;
+  margin: 0 calc(var(--nn-space-tiny) / var(--nn-ratio-2));
 }
 
 #social ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 0;
-  list-style: none;
 }
 
 #social li:nth-child(1) {
-  border-radius: 4px 0 0 4px;
+  border-radius: var(--nn-border-radius-default) 0 0 var(--nn-border-radius-default);
   background: #24292e;
 }
 
@@ -172,13 +100,13 @@ li span {
 }
 
 #social li:nth-child(4) {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 var(--nn-border-radius-default) var(--nn-border-radius-default) 0;
   background: #0077b5;
 }
 
 #social a {
   display: block;
-  padding: .5rem 0;
+  padding: var(--nn-space-tiny) 0;
   color: #fff;
   text-align: center;
 }
@@ -194,6 +122,7 @@ li span {
   <body>
 
 <section id="container">
+  
   <h1>Neo</h1>
   <p>Web Engineer. <strong><a href="https://gist.github.com/Neos21/09898ca1add539e1714844a113991f64">Hire Me!</a></strong></p>
   
