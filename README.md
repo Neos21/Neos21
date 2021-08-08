@@ -15,4 +15,4 @@ __[Neo's World](https://neos21.net/)__ : My Personal WebSite / Blog Since 2002.
 
 ## Donate
 
-[GitHub Sponsors](https://github.com/sponsors/Neos21) | [Patreon](https://www.patreon.com/Neos21) | [Fantia](https://fantia.jp/Neos21) | [Enty](https://enty.jp/Neos21)
+[GitHub Sponsors](https://github.com/sponsors/Neos21)
