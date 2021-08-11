@@ -5,7 +5,8 @@ Web Engineer lived in Tokyo. I love JavaScript / Node.js. __[More Details](https
 
 ## [My WebSite](https://neos21.net/)
 
-__[Neo's World](https://neos21.net/)__ : My Personal WebSite / Blog Since 2002.
+- __[Neo's World](https://neos21.net/)__ : My Personal WebSite / Blog Since 2002.
+- __[Neo's GitHub Pages](https://neos21.github.io/)__ : GitHub Pages
 
 
 ## Social
