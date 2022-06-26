@@ -1,13 +1,13 @@
-# __[Neo](https://neos21.github.io/Neos21/)__
+# Neo
 
-Web Engineer lived in Tokyo. I love JavaScript / Node.js. __[More Details](https://neos21.github.io/Neos21/)__
+Web Engineer lived in Tokyo. I love JavaScript / Node.js.
 
 
-## [My WebSite](https://neos21.net/)
+## My WebSites
 
 - __[Neo's World](https://neos21.net/)__ : My Personal WebSite / Blog Since 2002.
 - __[Neo's World Origin](https://neos21.tk/)__ (<http://neo.s21.xrea.com/>) : The Origin.
-- __[Neo's GitHub Pages](https://neos21.github.io/)__ : GitHub Pages
+- __[Neo's GitHub Pages](https://neos21.github.io/)__ : GitHub Pages.
 
 
 ## Social
