@@ -5,10 +5,9 @@ Web Engineer lived in Tokyo. I love JavaScript / Node.js.
 
 ## My WebSites
 
-- __[Neo's World](https://neos21.net/) : My Personal WebSite / Blog Since 2002.__
-- [Neo's World Origin](https://neos21.tk/) : The Origin.
-- [Neo's GitHub Pages](https://neos21.github.io/) : GitHub Pages.
-- __[Legacy of BBS](https://legacy-of-bbs.pages.dev/) : Guest Book, Web Forum, Feel Nostalgic.__
+- __[Neo's World](https://neos21.net/)__ : My Personal WebSite / Blog Since 2002.
+- __[Neo's GitHub Pages](https://neos21.github.io/)__ : GitHub Pages.
+- __[Legacy of BBS](https://legacy-of-bbs.pages.dev/)__ : Guest Book, Web Forum, Feel Nostalgic.
 
 
 ## Social
