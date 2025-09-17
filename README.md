@@ -11,7 +11,7 @@ Web Engineer lived in Tokyo. I love JavaScript / Node.js.
 
 ## Social
 
-[Facebook](https://www.facebook.com/Neos21) | [Instagram](https://www.instagram.com/Neos21) | [SoundCloud](https://soundcloud.com/neos21) | [LinkedIn](https://www.linkedin.com/in/Neos21)
+[Facebook](https://www.facebook.com/Neos21) | [SoundCloud](https://soundcloud.com/neos21) | [LinkedIn](https://www.linkedin.com/in/Neos21)
 
 
 ## Donate
