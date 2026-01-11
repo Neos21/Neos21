@@ -9,11 +9,6 @@ Web Engineer lived in Tokyo. I love JavaScript / Node.js.
 - __[Neo's GitHub Pages](https://neos21.github.io/)__ : GitHub Pages.
 
 
-## Social
-
-[Facebook](https://www.facebook.com/Neos21) | [SoundCloud](https://soundcloud.com/neos21) | [LinkedIn](https://www.linkedin.com/in/Neos21)
-
-
 ## Donate
 
 [GitHub Sponsors](https://github.com/sponsors/Neos21)
